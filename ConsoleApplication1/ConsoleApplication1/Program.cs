@@ -12,12 +12,18 @@ namespace ConsoleApplication1
         {
             List<string> member = new List<string>();
 
-            member.Add("Peter");
-            member.Add("Jamie");
-            member.Add("Maggie");
-            member.Remove("Jamie");
-            member.RemoveAt("1");
+            //member.Add("Peter");
+            //member.Add("Jamie");
+            //member.Add("Maggie");
+            //member.Remove("Jamie");
+            //member.RemoveAt("1");
 
+            Random rand = new Random();
+            for (int i = 0; i<6; i++)
+            {
+                Console.WriteLine(rand.Next(1, 43));
+            }
+            Console.ReadLine();
         }
     }
 }
